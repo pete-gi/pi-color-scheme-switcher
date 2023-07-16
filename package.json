@@ -1,7 +1,7 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "@petegi/pi-color-scheme-switcher",
-  "description": "CustomElement which can be used instead of <select> or <selectmenu> elements.",
+  "description": "CustomElement which can be used for switching color scheme on your site",
   "keywords": [
     "color scheme",
     "theme color",
@@ -19,7 +19,7 @@
     "url": "https://github.com/pete-gi"
   },
   "repository": {
-    "url": "https://github.com/pete-gi/pi-select"
+    "url": "https://github.com/pete-gi/pi-color-scheme-switcher"
   },
   "scripts": {
     "dev": "vite",
