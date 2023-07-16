@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "name": "@petegi/pi-color-scheme-switcher",
+  "description": "CustomElement which can be used instead of <select> or <selectmenu> elements.",
+  "keywords": [
+    "color scheme",
+    "theme color",
+    "switch",
+    "custom element",
+    "web component"
+  ],
+  "private": false,
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "module": "dist/pi-color-scheme-switcher.js",
+  "author": {
+    "name": "Piotr Golczyk",
+    "email": "petegi@outlook.com",
+    "url": "https://github.com/pete-gi"
+  },
+  "repository": {
+    "url": "https://github.com/pete-gi/pi-select"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0",
+    "vite-plugin-dts": "^3.3.0"
+  }
+}

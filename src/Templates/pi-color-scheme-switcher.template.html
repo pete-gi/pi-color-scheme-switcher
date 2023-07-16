@@ -1,0 +1,16 @@
+<button part="button" type="button">
+  <span part="marker">
+    <slot></slot>
+  </span>
+</button>
+
+<style>
+  :host {
+    display: contents;
+  }
+
+  [part="button"] {
+    min-width: 2rem;
+    height: 1rem;
+  }
+</style>
